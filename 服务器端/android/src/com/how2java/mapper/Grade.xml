@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ 
+    <mapper namespace="com.how2java.mapper.GradeMapper">
+        <insert id="add" parameterType="Grade" >
+            insert into grade_ ( cid, sid, grade ) values (#{cid}, #{sid}, #{grade})   
+        </insert>
+         
+        <delete id="delete" parameterType="Grade" >
+            delete from grade_ where id= #{id}  
+        </delete>
+         
+        <select id="get" parameterType="_int" resultType="Grade">
+            select * from   grade_  where sid= #{sid} and cid= #{cid}
+        </select>
+ 
+        <update id="update" >
+            update grade_ set grade=#{grade} where sid=#{sid} and cid= #{cid}  
+        </update>
+        
+        <select id="list"  parameterType="_int" resultType="Grade">
+            select * from   grade_  where sid=#{sid}
+        </select> 
+        
+         <select id="listall"  parameterType="_int" resultType="Grade">
+            select * from   grade_  where cid=#{cid}
+        </select>   
+    </mapper>

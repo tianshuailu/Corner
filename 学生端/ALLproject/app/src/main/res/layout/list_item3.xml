@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/studentID2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="StudentID"
+
+        >
+    </TextView>
+    <TextView
+    android:id="@+id/studentID"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:text="1111111"
+
+    >
+</TextView>
+    <TextView
+        android:id="@+id/Name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Name"
+        android:layout_weight="1"
+
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="张三"
+        android:layout_weight="1"
+
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/sex2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Sex"
+        android:layout_weight="1"
+
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="122"
+        android:layout_weight="1"
+
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/xuyuan2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Institute"
+        android:layout_weight="1"
+
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/xueyuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="122"
+        android:layout_weight="1"
+
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/zhuanye2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Faculty"
+        android:layout_weight="1"
+
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/zhuanye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="122"
+        android:layout_weight="1"
+
+        >
+    </TextView>
+
+
+
+
+
+</LinearLayout>

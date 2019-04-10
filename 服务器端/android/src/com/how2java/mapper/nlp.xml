@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ 
+    <mapper namespace="com.how2java.mapper.nlpMapper">
+        <insert id="addstu" parameterType="Student" >
+            update nlp set mark=1 where id=#{id}   
+        </insert>
+         
+         <insert id="addtch" parameterType="Teacher" >
+            update nlp set pin=#{pwd} where id=#{id} 
+        </insert>
+         
+        <delete id="delete" parameterType="Student" >
+            delete from student_ where id= #{id} 
+        </delete>
+         
+        <select id="get" resultType="Teacher">
+            select * from nlp where tch = 1 
+        </select>
+ 
+        <update id="update" parameterType="Student" >
+            update student_ set name=#{name} where id=#{id} 
+        </update>
+        <select id="list" resultType="Student">
+            select * from   nlp where mark=0     
+        </select>    
+    </mapper>

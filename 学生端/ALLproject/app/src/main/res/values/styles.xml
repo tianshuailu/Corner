@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <string-array name="spingarr">
+        <item name="1">Week 1</item>
+        <item name="2">Week 2</item>
+        <item name="3">Week 3</item>
+        <item name="4">Week 4</item>
+        <item name="5">Week 5</item>
+        <item name="6">Week 6</item>
+    </string-array>
+</resources>
